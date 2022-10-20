@@ -14,7 +14,7 @@ function getDatabaseUri() {
   return (process.env.NODE_ENV === "test")
       ? "postgresql://postgres:0258@localhost:5432/jobly_test"
 
-      : process.env.DATABASE_URL || "postgresql://postgres:0258@localhost:5432/jobly"
+      : process.env.DATABASE_URL || "postgres://lzyavittecenxm:1b2e7ed47d7d2d79aff692d879b3fb099f10ba0aa02ef413146ed88b57134d63@ec2-44-209-24-62.compute-1.amazonaws.com:5432/d6nm3agh84d3b6"
       ;
 }
 
