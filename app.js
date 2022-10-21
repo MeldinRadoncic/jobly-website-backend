@@ -16,7 +16,8 @@ const jobsRoutes = require("./routes/jobs");
 const morgan = require("morgan");
 
 const app = express();
-app.use(express.static('public'))
+app.use(express.static(path.join(__dirname, 'public')));
+
 
 
 app.use(cors());
